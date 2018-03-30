@@ -1,0 +1,7 @@
+/flask
+*.pyc
+.idea
+*.iml
+*/*.iml
+*.log
+Thumbs.db
