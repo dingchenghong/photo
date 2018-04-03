@@ -1,15 +1,6 @@
-def true_return(data, message):
+def resp(data, message, code=200):
     return {
-        'code': 200,
-        'data': data,
-        'message': message
-    }
-
-
-def false_return(data, message):
-    print(message)
-    return {
-        'code': 400,
+        'code': code,
         'data': data,
         'message': message
     }

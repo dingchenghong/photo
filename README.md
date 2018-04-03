@@ -34,3 +34,6 @@ pip install mysqlclient
 
 # 相关资料
 http://www.pythondoc.com/flask-mega-tutorial/helloworld.html#flask
+
+# 为跨域支持安装flask-cors
+pip install flask-cors
